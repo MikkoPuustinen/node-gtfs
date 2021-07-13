@@ -14,6 +14,7 @@ const stopTimes = require('../models/gtfs/stop-times');
 const stops = require('../models/gtfs/stops');
 const transfers = require('../models/gtfs/transfers');
 const translations = require('../models/gtfs/translations');
+const translations3 = require('../models/gtfs/translations3');
 const trips = require('../models/gtfs/trips');
 
 const directions = require('../models/non-standard/directions');
@@ -47,6 +48,7 @@ module.exports = [
   stops,
   transfers,
   translations,
+  translations3,
   trips,
   directions,
   stopAttributes,
