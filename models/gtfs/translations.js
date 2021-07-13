@@ -4,7 +4,7 @@ module.exports = {
     {
       name: 'trans_id',
       type: 'varchar(2047)',
-      primary: true
+      required: true
     },
     {
       name: 'lang',
